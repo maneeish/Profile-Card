@@ -1,0 +1,34 @@
+.profile-card {
+    width: 250px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: fill;
+    margin: 0 auto 12px auto;
+    display: block;
+  }
+
+  .profile-name {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  .profile-bio {
+    max-height: 100px;
+    overflow-y: auto;
+    padding: 8px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.95em;
+  }
